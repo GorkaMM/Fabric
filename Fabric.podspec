@@ -17,4 +17,8 @@ Pod::Spec.new do |spec|
   spec.subspec "Crashlytics" do |crashlytics|
     crashlytics.vendored_frameworks = "Crashlytics.framework"
   end
+
+  spec.subspec "MoPub" do |mopub|
+    mopub.vendored_frameworks = "MoPub.framework"
+  end
 end

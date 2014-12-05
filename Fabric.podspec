@@ -9,4 +9,12 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/zergtmn/Fabric.git", :tag => "v#{spec.version}" }
   spec.requires_arc = true
   spec.vendored_frameworks = "Fabric.framework"
+  spec.default_subspec = "Core"
+
+  spec.subspec "Core" do |core|
+  end
+
+  spec.subspec "Crashlytics" do |crashlytics|
+    crashlytics.vendored_frameworks = "Crashlytics.framework"
+  end
 end

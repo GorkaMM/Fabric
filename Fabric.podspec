@@ -8,21 +8,24 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "5.0"
   spec.source       = { :git => "https://github.com/zergtmn/Fabric.git", :tag => "v#{spec.version}" }
   spec.requires_arc = true
-  spec.vendored_frameworks = "Fabric.framework"
   spec.default_subspec = "Core"
 
   spec.subspec "Core" do |core|
+    core.vendored_frameworks = "Fabric.framework"
   end
 
   spec.subspec "Crashlytics" do |crashlytics|
+    crashlytics.dependency "Fabric/Core"
     crashlytics.vendored_frameworks = "Crashlytics.framework"
   end
 
   spec.subspec "MoPub" do |mopub|
+    mopub.dependency "Fabric/Core"
     mopub.vendored_frameworks = "MoPub.framework"
   end
 
   spec.subspec "Twitter" do |twitter|
+    twitter.dependency "Fabric/Core"
     twitter.vendored_frameworks = "TwitterKit.framework"
     twitter.resource_bundles = { "TwitterKitResources" => "TwitterKit.framework/Resources/TwitterKitResources.bundle/*" }
   end

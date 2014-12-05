@@ -21,4 +21,9 @@ Pod::Spec.new do |spec|
   spec.subspec "MoPub" do |mopub|
     mopub.vendored_frameworks = "MoPub.framework"
   end
+
+  spec.subspec "Twitter" do |twitter|
+    twitter.vendored_frameworks = "TwitterKit.framework"
+    twitter.resource_bundles = { "TwitterKitResources" => "TwitterKit.framework/Resources/TwitterKitResources.bundle/*" }
+  end
 end

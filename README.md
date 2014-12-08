@@ -37,10 +37,10 @@ If you only need Crashlytics you can also install it without app:
 	<key>Kits</key>
 	<array>
 		<dict>
-		<key>KitInfo</key>
-		<dict/>
-		<key>KitName</key>
-		<string>Crashlytics</string>
+			<key>KitInfo</key>
+			<dict/>
+			<key>KitName</key>
+			<string>Crashlytics</string>
 		</dict>
 	</array>
 </dict>

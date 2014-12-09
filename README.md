@@ -8,7 +8,7 @@ This repository contains CocoaPod for Fabric (https://fabric.io).
 2. Remove all frameworks from project which were added by Fabric app
 3. Add pods
 
-  ```
+  ```ruby
 pod 'Fabric/Crashlytics', :git => 'https://github.com/zergtmn/Fabric.git'
 pod 'Fabric/MoPub', :git => 'https://github.com/zergtmn/Fabric.git'
 pod 'Fabric/Twitter', :git => 'https://github.com/zergtmn/Fabric.git'
@@ -27,9 +27,9 @@ If you only need Crashlytics you can also install it without app:
 
   You can get your organization API key and build secret from organization settings page (https://fabric.io/settings/organizations).
 
-3. Add the following to Info.plist:
+3. Add the following to your project's Info.plist:
 
-```
+```xml
 <key>Fabric</key>
 <dict>
 	<key>APIKey</key>

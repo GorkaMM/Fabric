@@ -22,6 +22,7 @@ Pod::Spec.new do |spec|
   spec.subspec "MoPub" do |mopub|
     mopub.dependency "Fabric/Core"
     mopub.vendored_frameworks = "MoPub.framework"
+    mopub.resource_bundles = { "MoPub" => "MoPub.framework/Resources/MoPub.bundle/*" }
   end
 
   spec.subspec "Twitter" do |twitter|

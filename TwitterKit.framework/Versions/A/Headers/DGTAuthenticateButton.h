@@ -22,4 +22,12 @@
  */
 + (instancetype)buttonWithAuthenticationCompletion:(DGTAuthenticationCompletion)completion;
 
+/**
+ *  Sets the appearance of the button and the authentication flow. See `DGTAppearance` for details.
+ *
+ * @note Changing the appearance after the button has been added to the window has no effect. In order to see the effect of an appearance change, remove the button from the window and add it again.
+ *
+ */
+@property (nonatomic, copy) DGTAppearance *digitsAppearance;
+
 @end

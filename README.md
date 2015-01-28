@@ -2,6 +2,11 @@ Fabric
 ======
 This repository contains CocoaPod for Fabric (https://fabric.io).
 
+### Current versions:
+* Fabric.framework v1.1.1
+* Crashlytics.framework v2.2.9
+* TwitterKit.framework v1.2.0
+* MoPub.framework v3.3.0
 
 ## Installing
 1. Use official Fabric app to add components you need

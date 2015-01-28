@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.author       = "Twitter"
   spec.license      = { :type => "Copyright", :file => "LICENSE.md" } # from http://fabric.io/terms
   spec.platform     = :ios, "5.0"
-  spec.source       = { :git => "https://github.com/zergtmn/Fabric.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/GorkaMM/Fabric.git", :tag => "v#{spec.version}" }
   spec.requires_arc = true
   spec.default_subspec = "Core"
 

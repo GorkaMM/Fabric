@@ -9,9 +9,9 @@ This repository contains CocoaPod for Fabric (https://fabric.io).
 3. Add pods
 
   ```ruby
-pod 'Fabric/Crashlytics', '~> 1.0'
-pod 'Fabric/MoPub', '~> 1.0'
-pod 'Fabric/Twitter', '~> 1.0'
+pod 'Fabric/Crashlytics', '~> 1.1.1'
+pod 'Fabric/MoPub', '~> 1.1.1'
+pod 'Fabric/Twitter', '~> 1.1.1'
 ```
 
 4. Change path in Run Script Build command to:

@@ -1,6 +1,11 @@
 Fabric
 ======
-This repository contains CocoaPod for Fabric (https://fabric.io).
+### IMPORTANT
+**This is no longer mantained. Please use [official Pod from Fabric](https://cocoapods.org/pods/Fabric).**
+
+
+Legacy
+======
 
 ### Current versions:
 * Fabric.framework v1.1.1
